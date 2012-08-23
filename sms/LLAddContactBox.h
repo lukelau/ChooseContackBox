@@ -33,8 +33,8 @@
 
 
 @interface LLContactView : UIView
-//@property (nonatomic,retain) NSString *mobile;
-//@property (nonatomic,retain) NSString *name;
+@property (nonatomic,retain) NSString *mobile;
+@property (nonatomic,retain) NSString *name;
 
 
 @property (nonatomic,retain) UIButton *contactButton;
@@ -42,15 +42,4 @@
 + (LLContactView *)instance:(NSString *)contactString;
 
 
-@end
-
-
-//
-// model
-//
-
-@interface LLContact : NSObject
-@property (nonatomic,retain) NSString *mobile;
-@property (nonatomic,retain) NSString *name;
-@property (nonatomic,retain) LLContactView *contactView;
 @end

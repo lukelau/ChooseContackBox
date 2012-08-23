@@ -16,6 +16,7 @@
 		B8832E7C15E4C1DA002AC5B2 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B8832E7A15E4C1DA002AC5B2 /* MainStoryboard.storyboard */; };
 		B8832E7F15E4C1DA002AC5B2 /* LLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B8832E7E15E4C1DA002AC5B2 /* LLViewController.m */; };
 		B8832E8B15E4C8C4002AC5B2 /* LLAddContactBox.m in Sources */ = {isa = PBXBuildFile; fileRef = B8832E8A15E4C8C4002AC5B2 /* LLAddContactBox.m */; };
+		B8839A2115E60E180076523E /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8839A2015E60E180076523E /* AddressBook.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		B8832E7E15E4C1DA002AC5B2 /* LLViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LLViewController.m; sourceTree = "<group>"; };
 		B8832E8915E4C8C4002AC5B2 /* LLAddContactBox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LLAddContactBox.h; sourceTree = "<group>"; };
 		B8832E8A15E4C8C4002AC5B2 /* LLAddContactBox.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LLAddContactBox.m; sourceTree = "<group>"; };
+		B8839A2015E60E180076523E /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B8839A2115E60E180076523E /* AddressBook.framework in Frameworks */,
 				B8832E6915E4C1DA002AC5B2 /* UIKit.framework in Frameworks */,
 				B8832E6B15E4C1DA002AC5B2 /* Foundation.framework in Frameworks */,
 				B8832E6D15E4C1DA002AC5B2 /* CoreGraphics.framework in Frameworks */,
@@ -53,6 +56,7 @@
 		B8832E5915E4C1DA002AC5B2 = {
 			isa = PBXGroup;
 			children = (
+				B8839A2015E60E180076523E /* AddressBook.framework */,
 				B8832E6E15E4C1DA002AC5B2 /* sms */,
 				B8832E6715E4C1DA002AC5B2 /* Frameworks */,
 				B8832E6515E4C1DA002AC5B2 /* Products */,
@@ -289,6 +293,7 @@
 				B8832E8415E4C1DA002AC5B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
